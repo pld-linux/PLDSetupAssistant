@@ -2,7 +2,7 @@
 %define		kdever		4.4.3
 
 Summary:	PLD Setup Assistant
-Summary(pl.UTF-8):	Asysten konfiguracji PLD
+Summary(pl.UTF-8):	Asystent konfiguracji PLD
 Name:		PLDSetupAssistant
 Version:	0.1
 Release:	1
@@ -14,6 +14,7 @@ Source0:	%{name}-%{version}.tar.bz2
 # leave only required ones
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdebase-devel >= %{kdever}
+BuildRequires:	kde4-kdebase-workspace-devel >= %{kdever}
 BuildRequires:	kde4-kdelibs-devel >= %{kdever}
 BuildRequires:	rpmbuild(macros) >= 1.293
 Requires:	kde4-knetworkmanager
@@ -23,7 +24,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 PLD Setup Assistant.
 
 %description -l pl.UTF-8
-Asysten konfiguracji PLD.
+Asystent konfiguracji PLD.
 
 %prep
 %setup -q
