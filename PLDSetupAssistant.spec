@@ -16,7 +16,7 @@ BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdebase-devel >= %{kdever}
 BuildRequires:	kde4-kdelibs-devel >= %{kdever}
 BuildRequires:	rpmbuild(macros) >= 1.293
-BuildRequires:	strigi-devel >= 0.5.10
+Requires:	kde4-knetworkmanager
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
