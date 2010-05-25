@@ -13,7 +13,6 @@ Source0:	%{name}-%{version}.tar.bz2
 #URL:		http://
 # leave only required ones
 BuildRequires:	cmake >= 2.8.0
-BuildRequires:	kde4-kdebase-devel >= %{kdever}
 BuildRequires:	kde4-kdebase-workspace-devel >= %{kdever}
 BuildRequires:	kde4-kdelibs-devel >= %{kdever}
 BuildRequires:	rpmbuild(macros) >= 1.293
