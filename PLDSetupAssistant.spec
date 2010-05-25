@@ -12,6 +12,7 @@ Source0:	%{name}-%{version}.tar.bz2
 # Source0-md5:	eda58a079150838a503c232e06a0aa8c
 #URL:		http://
 # leave only required ones
+BuildRequires:	QtSvg-devel
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdebase-workspace-devel >= %{kdever}
 BuildRequires:	kde4-kdelibs-devel >= %{kdever}
